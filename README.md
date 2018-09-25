@@ -4,6 +4,8 @@ java_Rmath is a Java package providing a Java Native Interface for Rmath library
 Build Instructions
 ------------------
 
+* java_Rmath requires the installation of Rmath library (The command in Ubuntu is "sudo apt-get install r-mathlib"). 
+
 * To compile the package, enter src directory and execute "make". Notice that you may have to change the extension of generated libraries in the Makefile based on your operating system. On OS X you have to change all the extensions of dynamic library to .dylib while on Linux the corresponding extensions are .so
 
 * To clean generated file, type “make clean” on the command line. 
