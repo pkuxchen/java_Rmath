@@ -14,7 +14,7 @@ public class jniRmath {
 
 	/* Random Number Generators */
 
-public static native double     norm_rand();
+public static native double	norm_rand();
 public static native double	unif_rand();
 public static native double	exp_rand();
 
